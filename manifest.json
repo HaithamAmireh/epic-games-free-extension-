@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Epic Free Games",
+  "version": "1.0",
+  "description": "Epic Free Games",
+  "action": {
+    "default_popup": "index.html"
+  }
+}

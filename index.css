@@ -1,0 +1,63 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#main-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+#child-container {
+  border: 3px solid white;
+  display: flex;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  margin: 10px 30px 10px 30px;
+}
+#game-preview {
+  display: block;
+  height: 600px;
+  width: 300px;
+}
+
+#game-url {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 15px;
+  width: 50px;
+  background-color: rgb(61, 53, 173);
+  font: bold;
+}
+
+#game-description {
+  font-size: 15px;
+}
+
+hr:before {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #eee;
+  margin: 0 0.4em;
+}
+
+hr:after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #eee;
+  margin: 0 0.4em;
+}
